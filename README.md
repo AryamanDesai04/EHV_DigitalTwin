@@ -137,5 +137,3 @@ python app.py
 - The **prototype images** folder mention ensures reviewers can find visuals instantly.  
 - All tool names are properly highlighted for visibility during evaluation.  
 
-Would you like me to tailor this README for **public submission polish** (with badges like “Built with Python”, “Docker Ready”, etc.) — or keep it **purely technical for SIH evaluators**?
-```
