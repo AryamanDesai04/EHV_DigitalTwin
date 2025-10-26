@@ -9,21 +9,31 @@
 It creates a **virtual mirror** of physical assets — transformers, breakers, CT/CVTs, isolators, reactors, and busbars — enabling predictive diagnostics, live visualization, and operator training.
 
 ---
+[ Physical Substation Assets ]
+          │
+          ▼
+[ IoT & SCADA Sensors ]
+          │
+          ▼
+[ Data Processing Layer ]
+ → Tools: Pandas, NumPy
+          │
+          ▼
+[ Digital Twin Core Engine ]
+ → ML Models: Random Forest, LSTM
+          │
+          ▼
+[ API & Communication Layer ]
+ → Flask + WebSocket
+          │
+          ▼
+[ Visualization Layer ]
+ → Plotly Dash Dashboard
+          │
+          ▼
+[ Deployment & Security ]
+ → Docker, AES Encryption
 
-## 🏗️ System Architecture
-```mermaid
-flowchart TD
-A[Physical Substation Assets] --> B[IoT & SCADA Sensors]
-B --> C[Data Processing Layer: Pandas, NumPy]
-C --> D[Digital Twin Core Engine: ML Models (RF, LSTM)]
-D --> E[API & Communication Layer: Flask + WebSocket]
-E --> F[Visualization Layer: Plotly Dash Dashboard]
-F --> G[Deployment Layer: Docker + Security]
-````
-
-Each layer ensures continuous synchronization between physical and digital entities, providing real-time insights and simulation capabilities.
-
----
 
 ## 🧩 Features
 
