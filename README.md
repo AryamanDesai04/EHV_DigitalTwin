@@ -1,8 +1,3 @@
-# EHV Digital Twin – AI-Powered Predictive Substation Intelligence Platform  
-
-### Smart India Hackathon 2025 | Team Code Titans | Problem ID: 25191  
-
----
 
 ## 🧠 Overview
 **EHV Digital Twin** is a real-time AI-powered simulation and monitoring platform for **400/220 kV substations**, designed to predict faults, detect anomalies, and optimize performance.  
